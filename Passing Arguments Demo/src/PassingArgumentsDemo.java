@@ -17,21 +17,21 @@ public class PassingArgumentsDemo
 		return userInput.nextDouble();
 		}
 	
-	private static double convertToPints(double numberOfQuarts)
+	protected static double convertToPints(double numberOfQuarts)
 		{
 		double pints = numberOfQuarts * 2;
 		System.out.println("That equals " + pints + " pints.");
 		return pints;
 		}
 	
-	private static double convertToFluidOunces(double numberOfPints)
+	protected static double convertToFluidOunces(double numberOfPints)
 		{
 		double fluidOunces = numberOfPints * 16;
 		System.out.println("That equals " + fluidOunces + " fluid ounces.");
 		return fluidOunces; 
 		}
 	
-	private static double convertToMilliliters(double numberOfFluidOunces)
+	protected static double convertToMilliliters(double numberOfFluidOunces)
 		{
 		double milliliters = numberOfFluidOunces * 29.5735;
 		System.out.println("That equals " + milliliters + " milliliters.");
